@@ -1,27 +1,27 @@
 # 🏪 WarungPay — Solana Pay POS for Indonesian MSMEs 🇮🇩
 
-**WarungPay** adalah aplikasi Point of Sale (POS) berbasis **Solana Pay** yang dirancang khusus untuk memfasilitasi adopsi kripto pada sektor UMKM (*Micro, Small, and Medium Enterprises*) di Indonesia. Dengan WarungPay, pemilik usaha dapat menerima pembayaran digital secara instan, aman, dan tanpa biaya perantara yang mahal.
+**WarungPay** is a Solana Pay-based Point of Sale (POS) application specifically designed to accelerate crypto adoption among MSMEs (Micro, Small, and Medium Enterprises) in Indonesia. With WarungPay, business owners can accept digital payments instantly, securely, and without the burden of expensive intermediary fees.
 
 ---
 
-## 🚀 Visi Produk
-Menjembatani kesenjangan antara teknologi blockchain dan transaksi harian di Indonesia. Kami menghadirkan kemudahan pembayaran sekelas QRIS dengan efisiensi dan transparansi jaringan Solana.
+## 🚀 Product Vision
+Bridging the gap between blockchain technology and daily transactions in Indonesia. We deliver a payment experience as seamless as QRIS (Indonesian Standard QR) combined with the efficiency and transparency of the Solana network.
 
 ---
 
-## ✨ Fitur Utama
-* **Native IDR Input:** Kasir cukup memasukkan nominal dalam Rupiah (IDR).
-* **Real-time Conversion:** Konversi otomatis dari IDR ke USDC/SOL berdasarkan kurs pasar terkini.
-* **Dynamic Solana Pay QR:** Menghasilkan QR code instan yang kompatibel dengan dompet Phantom, Solflare, dan wallet Solana lainnya.
-* **Transaction Monitoring:** Status pembayaran real-time (*"Menunggu"* hingga *"Lunas"*) langsung di layar kasir.
-* **Merchant-Centric UI:** Desain antarmuka yang intuitif dan ringan, optimal untuk perangkat Android yang umum digunakan pedagang lokal.
+## ✨ Key Features
+* **Native IDR Input:** Merchants can simply enter the transaction amount in Indonesian Rupiah (IDR).
+* **Real-time Conversion:** Automatic conversion from IDR to USDC/SOL based on the latest market exchange rates.
+* **Dynamic Solana Pay QR:** Generates instant QR codes compatible with Phantom, Solflare, and other Solana-standard wallets.
+* **Transaction Monitoring:** Real-time payment status tracking (from "Pending" to "Settled") directly on the merchant's screen.
+* **Merchant-Centric UI:** An intuitive, lightweight interface optimized for Android devices commonly used by local vendors.
 
 ---
 
 ## 🛠️ Tech Stack
-* **Frontend:** Flutter (Mobile & Web)
+* **Frontend:** Flutter (Cross-platform Mobile & Web)
 * **Blockchain Protocol:** Solana Pay Protocol
-* **State Management:** Provider / BLoC (Planned)
+* **State Management:** BLoC / Clean Architecture
 * **Price Discovery:** CoinGecko API Integration (Planned)
 
 ---
@@ -29,32 +29,32 @@ Menjembatani kesenjangan antara teknologi blockchain dan transaksi harian di Ind
 ## 📊 Business Roadmap (Milestones)
 
 ### ✅ Milestone 1: Prototype UI & QR Engine (Completed)
-* [x] Pengembangan UI Kasir (Numpad & Input IDR).
-* [x] Integrasi QR Code Generator berbasis Solana Pay URL Scheme.
+* [x] Development of Merchant UI (Numpad & IDR Input system).
+* [x] Integration of QR Code Generator based on Solana Pay URL Scheme.
 
 ### ⚙️ Milestone 2: Real-time Data & Logic (Q1 2026)
-* [ ] Integrasi API konversi harga IDR -> USDC secara live.
-* [ ] Sistem validasi input dan error handling.
+* [ ] Live API integration for IDR -> USDC price conversion.
+* [ ] Robust input validation and error handling systems.
 
 ### 🔗 Milestone 3: Blockchain Connectivity (Q1 2026)
-* [ ] Implementasi Payment Listener via Solana RPC untuk deteksi otomatis transaksi sukses.
-* [ ] Integrasi riwayat transaksi lokal (Local Database).
+* [ ] Implementation of Payment Listeners via Solana RPC for automated transaction detection.
+* [ ] Local database integration for transaction history.
 
 ### 🚀 Milestone 4: Mainnet Launch & User Education (Q2 2026)
-* [ ] Deployment aplikasi ke Google Play Store.
-* [ ] Penyusunan dokumentasi dan panduan penggunaan untuk merchant UMKM.
+* [ ] Deployment to Google Play Store.
+* [ ] Creation of comprehensive documentation and onboarding guides for MSME merchants.
 
 ---
 
 ## 🛡️ Open Source & Security
-Kami percaya pada kekuatan komunitas. **WarungPay** akan dirilis secara open-source setelah fase pengujian Mainnet selesai, guna mendorong inovasi lebih lanjut di ekosistem Solana Indonesia.
+We believe in the power of the community. **WarungPay** will be released as an open-source project following the completion of Mainnet testing to foster further innovation within the Solana Indonesia ecosystem.
 
 ---
 
-## 👨‍💻 Kontributor
+## 👨‍💻 Contributor
 **Vincentius Bryan Kwandou** ([@nayrbryanGaming](https://github.com/nayrbryanGaming))
 
 ---
 
-## 💬 Hubungi Kami
-Tertarik untuk berkolaborasi atau mendukung pengembangan WarungPay? Hubungi kami melalui kanal komunitas **Superteam Indonesia**.
+## 💬 Contact Us
+Interested in collaborating or supporting the development of WarungPay? Reach out to us through the **Superteam Indonesia** community channels.
