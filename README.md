@@ -40,7 +40,7 @@ Bridging the gap between blockchain technology and daily transactions in Indones
 * [ ] Implementation of Payment Listeners via Solana RPC for automated transaction detection.
 * [ ] Local database integration for transaction history.
 
-### 🚀 Milestone 4: Mainnet Launch & User Education (Q2 2026)
+### 🚀 Milestone 4: Mainnet Launch & User Education (Q1 2026)
 * [ ] Deployment to Google Play Store.
 * [ ] Creation of comprehensive documentation and onboarding guides for MSME merchants.
 
